@@ -295,12 +295,6 @@ The squaring lives in four small functions in `service.py`:
 
 ---
 
-## Still open
-
-**The BuzzBoard endpoint.** The rules say squaring will eventually move to a BuzzBoard
-endpoint, with this service as the fallback. Its address, path and field names are not
-known yet, so nothing is wired to it — this service squares every logo itself, which the
-rules describe as the correct interim state.
 
 **Publishing consent.** The business is meant to be shown both versions and asked before a
 campaign publishes. That gate is not built here; the rules call it the next piece of work.
